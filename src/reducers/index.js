@@ -1,8 +1,9 @@
 import { combineReducers } from 'redux';
-import FruitsList from '../components/FruitsList';
+
+import fruits from './fruits';
 
 const rootReducers = combineReducers({
-    gifs: FruitsList
+    fruits: fruits
 });
 
 export default rootReducers;

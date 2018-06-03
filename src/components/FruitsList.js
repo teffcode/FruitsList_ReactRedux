@@ -1,8 +1,8 @@
 import React from 'react';
 
-const FruitsList = ({ gifs }) => {
-    const gifItems = gifs.map(gif => <li key={ gif.id }>{ gif.url }</li>);
-    return <ul>{ gifItems }</ul>
+const FruitsList = ({ fruits }) => {
+    const fruitsItems = fruits.map(fruit => <li key={ fruit.id }><img src={fruit.url}/></li>);
+    return <ul>{ fruitsItems }</ul>
 }
 
 export default FruitsList;
