@@ -8,7 +8,8 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="fruits">
+        <h1>🍓 Fruit List 🥝</h1>
         <FruitsList fruits={ this.props.fruits }/>
       </div>
     );

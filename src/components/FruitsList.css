@@ -1,0 +1,11 @@
+.list {
+    list-style: none;
+}
+
+.list > img {
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    border: 4px solid white;
+    margin: 10px 0;
+}
